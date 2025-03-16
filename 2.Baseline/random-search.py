@@ -115,7 +115,7 @@ def is_feasible(x):
 
 
 # Perform a Random Search for a Feasible Solution ----
-num_samples = 100000  # Increase if needed to find a feasible solution
+num_samples = 1000000  # Increase if needed to find a feasible solution
 best_f = float('inf')
 best_x = None
 
